@@ -10,8 +10,7 @@ const api = create({
 
 const getSlider = () => api.get("/sliders?populate=*");
 const getVideoCourse = () => api.get("video-courses?populate=*");
-const getCourseList = (type: string) =>
-  api.get("course-lists?filters[type][$eq]=" + type + "&populate=*");
+const getCourseList = (type: string) => api.get("course-lists?filters[type][$eq]=" + type + "&populate=*");
 // api.get(
 //   "course-lists?filters[type][$eq]=" +
 //     type +
