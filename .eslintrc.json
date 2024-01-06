@@ -1,0 +1,47 @@
+{
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
+    "react-native-wcandillon",
+    "prettier"
+  ],
+  "plugins": ["prettier"],
+  "ignorePatterns": [".eslintrc"],
+  "rules": {
+    "@typescript-eslint/interface-name-prefix": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/consistent-type-imports": "off",
+    "import/no-default-export": "off",
+    "camelcase": "off",
+    "@typescript-eslint/no-shadow": "off",
+    "no-nested-ternary": "off",
+    "@typescript-eslint/no-empty-function": "off",
+    "@typescript-eslint/no-loss-of-precision": "off",
+    "import/export": "off",
+    "import/no-cycle": "off",
+    "import/no-useless-path-segments": "off",
+    "@typescript-eslint/no-inferrable-types": "off",
+    "import/no-extraneous-dependencies": "off",
+    "max-len": [
+      "error",
+      {
+        "code": 120,
+        "tabWidth": 2,
+        "ignoreUrls": true,
+        "ignoreStrings": true,
+        "ignoreTemplateLiterals": true
+      }
+    ],
+    "prettier/prettier": [
+      "error",
+      {
+        "printWidth": 120
+      },
+      {
+        "usePrettierrc": true
+      }
+    ]
+  }
+}

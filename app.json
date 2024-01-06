@@ -3,6 +3,7 @@
     "name": "JoeEduAppp",
     "slug": "JoeEduAppp",
     "version": "1.0.0",
+    "scheme": "joe-eduappp",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -21,10 +22,22 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.kenisank.JoeEduAppp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "79fed006-64b7-498e-b085-aee670b7abc5"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/79fed006-64b7-498e-b085-aee670b7abc5"
     }
   }
 }
